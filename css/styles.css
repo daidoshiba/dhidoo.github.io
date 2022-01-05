@@ -1,5 +1,41 @@
+ul {
+  list-style-type: none;
+}
+
+a {
+  color: red;
+  font-size: 48px;
+  text-align: center;
+  text-decoration: none;
+}
+
+body {
+  margin-top: 100px;
+  margin-left: 180px;
+}
+
+.click {
+  text-decoration: line-through;
+}
+
+.click2:hover {
+  opacity: 0.4;
+}
+
+.click2 {
+  /* background-color: pink; */
+  width: 300px;
+}
+
+img {
+  width: 100%;
+}
+
+p {
+  color: blue;
+  font-size: 18px;
+}
+
 h1 {
-  font-size: 24px;
-  padding-bottom: 8px;
-  border-bottom: 1px solid #ddd;
+  color: pink;
 }

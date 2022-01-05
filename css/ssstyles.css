@@ -1,0 +1,27 @@
+iframe {
+  margin-left: 400px;
+}
+
+
+h1 {
+  font-size: 33px;
+  margin-left: 400px;
+  margin-top: 120px;
+  margin-bottom: 50px;
+  color: skyblue;
+}
+
+.container section + section {
+  margin-top: 120px;
+}
+
+p {
+  margin-left: 400px;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: pink;
+}
+
+body {
+  margin-bottom: 400px;
+}

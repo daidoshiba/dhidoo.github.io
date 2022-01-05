@@ -1,0 +1,60 @@
+/* common */
+
+ul {
+  list-style-type: none;
+}
+
+body {
+  margin: 100px 180px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-size: 23px;
+  margin-left: 40px;
+}
+
+.container {
+  margin-top: 80px;
+  margin-right: 26px;
+}
+
+/* photos */
+
+.photos ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 80px;
+  margin-top: 80px;
+}
+
+.photos li {
+  width: calc((100% - 32px) / 2);
+  /* outline: 2px solid blue; */
+}
+
+.photos li img {
+  width: 100%;
+}
+
+.container {
+  display: flex;
+}
+
+.container a {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+}
+
+.container i {
+  font-size: 42px;
+  text-align: center;
+}
+
+/* hero */
+
+.hero img {
+  width: 100%;
+  margin-bottom: 20px;
+}
