@@ -11,7 +11,6 @@ ul {
 }
 
 img {
-  /* margin: 0; */
   width: 100%;
 }
 
@@ -24,16 +23,16 @@ p {
   color: red;
 }
 
-/* indx.html,music.html */
+/* index.html,music.html */
 
-.click2 a {
+.click a {
   color: red;
   font-size: 48px;
   text-align: center;
   text-decoration: none;
 }
 
-.click2:hover {
+.click:hover {
   opacity: 0.4;
 }
 
@@ -49,7 +48,6 @@ h1 {
 
 .container {
   display: flex;
-  /* align-items:baseline; */
 }
 
 .container li {
@@ -76,10 +74,6 @@ h1 {
   margin-bottom: 800px;
 }
 
-/* .photos iframe {
-  width: 100%;
-} */
-
 main {
   text-align: center;
 }
@@ -97,13 +91,13 @@ main {
 
 @media (min-width: 600px) {
   body {
-    background: yellow;
+    background: skyblue;
   } 
 }
 
 @media (min-width: 800px) {
   body {
-    background: skyblue;
+    background: yellow;
   }
 
   .container {
