@@ -1,0 +1,112 @@
+/* common */
+
+body{
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: pink;
+}
+
+ul {
+  list-style-type: none;
+}
+
+img {
+  /* margin: 0; */
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  margin-left: 40px;
+  color: red;
+}
+
+/* indx.html,music.html */
+
+.click2 a {
+  color: red;
+  font-size: 48px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.click2:hover {
+  opacity: 0.4;
+}
+
+h1 {
+  font-size: 18px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  margin-left: 40px;
+  color: red;
+}
+
+/* photographs.html/sculptures.html */
+
+.container {
+  display: flex;
+  /* align-items:baseline; */
+}
+
+.container li {
+  /* border: 3px solid red; */
+  text-align: right;
+  width: 700px;
+  height: 700px;
+}
+
+.photos img {
+  width: 100%;
+}
+
+.photos p {
+  color:slategray;
+  font-size: 12px;
+  margin: 20px;
+}
+
+/* films.html,*/
+
+.photos {
+  text-align: center;
+  margin-bottom: 800px;
+}
+
+/* .photos iframe {
+  width: 100%;
+} */
+
+main {
+  text-align: center;
+}
+
+.photos section + section {
+  margin-top: 120px;
+}
+
+.photos h1 {
+  margin-left: 0px;
+  margin-bottom: 100px;
+}
+
+/* medium screen */
+
+@media (min-width: 600px) {
+  body {
+    background: yellow;
+  } 
+}
+
+@media (min-width: 800px) {
+  body {
+    background: skyblue;
+  }
+
+  .container {
+    margin-top: 40px;
+  }
+}
