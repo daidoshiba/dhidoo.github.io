@@ -18,8 +18,20 @@ a {
   text-decoration: none;
 }
 
+table {
+  margin-bottom: 300px;
+}
+
+table,
+td,
+th {
+  border-collapse: collapse;
+  border: 2px solid black;
+}
+
 p {
   margin-left: 40px;
+  margin-bottom: 150px;
   color: red;
 }
 
@@ -42,6 +54,11 @@ h1 {
   margin-bottom: 30px;
   margin-left: 40px;
   color: red;
+}
+
+h2,
+table {
+  margin-left: 40px;
 }
 
 /* photographs.html/sculptures.html */
